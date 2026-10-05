@@ -16,7 +16,7 @@ Las respuestas teóricas (parte a de los problemas 1–3 y los problemas 4 y 5) 
 
 ## Video
 
-Enlace al video (YouTube, no listado, ≤ 10 min): **PENDIENTE**
+https://youtu.be/Djp8UFTu-d8
 
 ## Requisitos
 
