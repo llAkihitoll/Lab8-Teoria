@@ -1,0 +1,29 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+100.00     32.06    32.06        1    32.06    32.06  function
+  0.00     32.06     0.00        2     0.00     0.00  tiempo_cpu
+
+			Call graph
+
+
+granularity: each sample hit covers 4 byte(s) for 0.03% of 32.06 seconds
+
+index % time    self  children    called     name
+               32.06    0.00       1/1           main [2]
+[1]    100.0   32.06    0.00       1         function [1]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]    100.0    0.00   32.06                 main [2]
+               32.06    0.00       1/1           function [1]
+                0.00    0.00       2/2           tiempo_cpu [3]
+-----------------------------------------------
+                0.00    0.00       2/2           main [2]
+[3]      0.0    0.00    0.00       2         tiempo_cpu [3]
+-----------------------------------------------
+
+Index by function name
+
+   [1] function                [3] tiempo_cpu
